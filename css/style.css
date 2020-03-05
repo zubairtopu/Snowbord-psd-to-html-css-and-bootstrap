@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
+}
+p{
+    font-size: 14pt;
+    color: white;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+/* navbar start */
+.navbar-dark{
+    
+    background: black!important;
+        
+    padding: 11px 80px;
+}
+.nav-link{
+
+color: white!important;
+
+font-weight: 700;
+
+text-transform: uppercase;
+
+margin-left: 14px;
+}
+.nav-link:hover{
+    color: tomato!important;
+}
+.i-custom{
+    
+color: white;
+    
+margin-left: 17px;
+}
+.i-custom:hover{
+    color: tomato!important;
+}
+.euro{
+
+}
+/* navbar end */
+    
+/* banner start */
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.btn-dark{
+
+background: black;
+
+text-transform: uppercase;
+
+padding: 7px 16px;
+
+margin-left: 152px;
+
+margin-top: 46px;
+
+font-weight: 700;
+}
+.btn-dark:hover{
+    color: tomato;
+}
+/* banner end */
+    
+/* snowboards start */
+    
+.carousle_content{
+
+margin: 100px 0px;
+
+text-transform: uppercase;
+}
+.carousle_content h1{
+
+font-weight: 700;
+
+margin-bottom: 34px;
+}
+.next{
+    
+font-size: 48px;
+    
+color: black;
+}
+.carousle_content h6{
+
+font-weight: 700;
+}
+
+.m-custom{
+    margin: 0px 130px;
+}
+.last{
+    float: right;
+}
+
+
+.carousel_footer_content{
+
+}
+.carousel_footer_content h4{margin-top: 51px;
+    margin-bottom: 143px;
+    text-transform: uppercase;}
+/* snowboards end */
+    
+/* the mountains start */
+    .mountaines{
+        background-image: url(../images/cover.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 950px;
+    }
+
+    .mountaie_header{
+        margin-top: 255px;
+        margin-bottom: 80px;
+    }
+    .mountaie_header h1{
+
+color: white;
+
+font-weight: 700;
+
+
+}
+    .mountaine_content{
+
+    }
+    .mountaine_content h1{
+
+    }
+    .mountaine_content p{
+font-size: 14pt;
+    color: white;
+    text-transform: capitalize;
+    line-height: 2;
+
+}
+/* the mountains end  */
+    
+/* features start */
+.features_header h1{
+margin: 127px 0;
+font-weight: 700;
+}
+.featurs_1{
+
+margin-bottom: 132px;
+
+width: 230px;
+
+}
+.featurs_1 h6{
+
+text-transform: capitalize;
+
+margin: 24px 0;
+
+line-height: 2.5;
+
+font-weight: 700;
+cursor: pointer;
+}
+.featurs_1 h6:hover {
+    color: tomato;
+}
+/* features end */
+    
+/* footer start */
+footer{
+        background-color: black;
+}
+.products{
+        margin-top: 80px;
+}
+.products h5{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-bottom: 29px;
+}
+.products p{
+        /* color: white; */
+        font-size: 10pt;
+        font-weight: 300;
+        margin-bottom: 9px;
+        cursor: pointer;
+}
+.products p:hover{
+    color: tomato;
+    
+}
+.social-icon{
+
+width: 84%;
+
+margin-top: 60px;
+}
+.social-icon ul{
+
+color: white;
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+width: auto;
+
+}
+.social-icon li{
+
+}
+.social-icon i{        
+    cursor: pointer;
+}
+.social-icon i:hover{
+    color: tomato;
+}
+.footer_content{
+
+color: white;
+margin: 45px 0;
+
+}
+.footer_content h6 {
+
+font-size: 14px;
+
+font-weight: 400;
+
+margin-right: 32px;
+
+}
+    .left img{
+        
+margin-right: 11px;
+    }
+/* footer end */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Extra small (xs) devices (portrait phones, less than 576px)
+    No media query since this is the default in Bootstrap
+    
+    Small (sm) devices (landscape phones, 576px and up)
+    @media (min-width:576px) {...}
+    
+    Medium (md) devices (tablets, 768px and up)
+    @media (min-width:768px) {...}
+    
+    Large (lg) devices (desktops,922px and up)
+    @media (min-width:922px) {...}
+    
+    Extra (xl) large devices (large desktops, 1200px and up)
+    @media (min-width:1200px) {...} */
